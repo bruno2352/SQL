@@ -1,0 +1,22 @@
+CREATE TABLE laptops (id INTEGER PRIMARY KEY, name TEXT, brand TEXT, price INTEGER, aisle INTEGER);
+
+INSERT INTO laptops VALUES
+(1, "ALIENWARE", "DELL", 2500, 1),
+(2, "XPS", "DELL", 2100, 1),
+(3, "ROG", "ASUS", 2200, 2),
+(4, "ZEPHYR", "ASUS", 2150, 2),
+(5, "THIN", "ASUS", 1800, 2),
+(6, "PREDATOR", "THUNDER", 2800, 3),
+(7, "GALAXY 2", "SAMSUNG", 1750, 4),
+(8, "GALAXY NOTE 2", "SAMSUNG", 1999, 4),
+(9, "ALIENWARE X15", "DELL", 2600, 1),
+(10, "THINKPAD", "LENOVO", 1500, 5),
+(11, "GAMER", "LENOVO", 1650, 5),
+(12, "YOGA", "LENOVO", 1750, 5),
+(13, "INSPIRON", "LENOVO", 1950, 5),
+(14, "LEGION", "LENOVO", 2300, 5),
+(15, "VIVOBOOK", "ASUS", 1900, 2)
+;
+
+SELECT * FROM laptops
+WHERE brand IN ("DELL", "LENOVO") ORDER BY price desc;
