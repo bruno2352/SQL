@@ -18,5 +18,7 @@ INSERT INTO laptops VALUES
 (15, "VIVOBOOK", "ASUS", 1900, 2)
 ;
 
+Laptos under the brand Dell and Lenovo with descending price order
+
 SELECT * FROM laptops
 WHERE brand IN ("DELL", "LENOVO") ORDER BY price desc;
