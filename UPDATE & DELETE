@@ -1,0 +1,19 @@
+/* What does the app's SQL look like? */
+
+CREATE TABLE scores (id INTEGER PRIMARY KEY, user_id INTEGER, game TEXT, score INTEGER, emotion TEXT);
+
+INSERT INTO scores (user_id, game, score, emotion) VALUES (1, "Mario World", 88, "Satisfied");
+
+INSERT INTO scores (user_id, game, score, emotion) VALUES (2, "Mario Tennis", 95, "Happy");
+
+INSERT INTO scores (user_id, game, score, emotion) VALUES (3, "Mario Party", 75, "Disappointed");
+
+INSERT INTO scores (user_id, game, score, emotion) VALUES (4, "Smash Bros", 98, "Happy");
+
+SELECT * FROM scores;
+
+UPDATE scores SET score = "100" WHERE id = 3;
+UPDATE scores SET emotion = "Very happy" WHERE score = 100;
+DELETE FROM scores WHERE id = 2;
+
+SELECT * FROM scores;
