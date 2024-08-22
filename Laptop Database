@@ -1,5 +1,6 @@
 CREATE TABLE laptops (id INTEGER PRIMARY KEY, name TEXT, brand TEXT, price INTEGER, aisle INTEGER);
 
+
 INSERT INTO laptops VALUES
 (1, "ALIENWARE", "DELL", 2500, 1),
 (2, "XPS", "DELL", 2100, 1),
