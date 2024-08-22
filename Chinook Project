@@ -3,6 +3,7 @@ SELECT FirstName, LastName, CustomerId, Country
 FROM chinook.customers 
 WHERE Country != "USA";
 
+
 #2. 
 SELECT * FROM chinook.customers 
 WHERE Country = "Brazil" ;
