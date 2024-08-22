@@ -3,6 +3,7 @@ CREATE TABLE books (
     author TEXT,
     title TEXT,
     words INTEGER);
+
     
 INSERT INTO books (author, title, words)
     VALUES ("J.K. Rowling", "Harry Potter and the Philosopher's Stone", 79944);
