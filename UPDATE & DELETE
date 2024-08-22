@@ -10,6 +10,7 @@ INSERT INTO scores (user_id, game, score, emotion) VALUES (3, "Mario Party", 75,
 
 INSERT INTO scores (user_id, game, score, emotion) VALUES (4, "Smash Bros", 98, "Happy");
 
+
 SELECT * FROM scores;
 
 UPDATE scores SET score = "100" WHERE id = 3;
