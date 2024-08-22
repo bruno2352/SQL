@@ -13,6 +13,7 @@ INSERT INTO books (name, release) VALUES ("Hearts in Atlantis", 2007);
 INSERT INTO books (name, release) VALUES ("The Stand", 1977);
 INSERT INTO books (name, release) VALUES ("The Eyes of the Dragon", 2009);
 
+
 CREATE TABLE characters (id INTEGER PRIMARY KEY, book_id INTEGER, book TEXT,  character TEXT);
 INSERT INTO characters (book_id, book, character) VALUES (1, "The Shining", "Dick Halloran");
 INSERT INTO characters (book_id, book, character) VALUES (2, "IT", "Richie Tozier");
