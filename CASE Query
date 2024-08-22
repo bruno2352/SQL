@@ -3,6 +3,7 @@ CREATE TABLE student_grades (
     name TEXT,
     number_grade INTEGER,
     fraction_completed REAL);
+
     
 INSERT INTO student_grades (name, number_grade, fraction_completed)
     VALUES ("Winston", 90, 0.805);
